@@ -1,0 +1,14 @@
+server:
+  port: 8888
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=utf-8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&useSSL=false&serverTimezone=GMT%2B8
+    username: root
+    password: xxx
+
+# MyBatis
+mybatis:
+  type-aliases-package: com.kinson.comm.domain
+  mapper-locations: classpath:/mybatis/*.xml
