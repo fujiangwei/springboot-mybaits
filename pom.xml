@@ -19,7 +19,7 @@
         <mysql.version>6.0.6</mysql.version>
         <mybatis.version>2.0.0</mybatis.version>
         <lombok.version>1.18.4</lombok.version>
-        <commom.io.version>2.6</commom.io.version>
+        <commom.io.version>2.7</commom.io.version>
         <common.lang3.version>3.7</common.lang3.version>
         <commons.collections.version>3.2.2</commons.collections.version>
         <junit.version>4.12</junit.version>
